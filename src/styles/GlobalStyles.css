@@ -1,7 +1,5 @@
 main {
-  width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: auto;
   padding: 1rem;
   width: 800px;
   max-width: calc(100% - 2rem);
@@ -39,6 +37,7 @@ h1 {
 .nav-links {
   width: 100%;
   top: 5rem;
+  left: 48px;
   background-color: #ff9776;
   display: none;
   margin: 0;
