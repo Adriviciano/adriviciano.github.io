@@ -1,5 +1,12 @@
 ---
 import '../styles/GlobalStyles.css'
+
+function toggleMobileMenu() {
+  var mobileMenu = document.getElementById('menu');
+  if (mobileMenu != null) {
+    mobileMenu.classList.toggle('active');
+  }
+}
 ---
 
 <div class="nav-links">
@@ -15,7 +22,7 @@ import '../styles/GlobalStyles.css'
 </div>
 
 <!-- Agregamos el icono de lista (hamburguesa) -->
-<div class="menu-icon" onclick="toggleMobileMenu()">
+<div id="menu" class="menu-icon" onclick="toggleMobileMenu()">
     <div></div>
     <div></div>
     <div></div>
