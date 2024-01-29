@@ -1,13 +1,5 @@
 ---
 import '../styles/GlobalStyles.css'
-
-function toggleMobileMenu() {
-  var mobileMenu = document.getElementById('menu');
-  if (mobileMenu != null) {
-    mobileMenu.classList.toggle('active');
-    console.log('pulsado el menu');
-  }
-}
 ---
 
 <div class="nav-links">
@@ -21,23 +13,3 @@ function toggleMobileMenu() {
     <a href="/entregables/industryTalk">Industry Talk</a>
 
 </div>
-
-<!-- Agregamos el icono de lista (hamburguesa) -->
-<div id="menu" class="menu-icon" onclick="toggleMobileMenu()">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-  
-  <!-- Agregamos el menú desplegable -->
-  <div class="mobile-menu">
-    <a href="/">Home</a>
-    <a href="/entregables/ep01">Ep01</a>
-    <a href="/entregables/ep02">Ep02</a>
-    <a href="/entregables/ep03">Ep03</a>
-    <a href="/entregables/ep04">Ep04</a>
-    <a href="/entregables/ep05">Ep05</a>
-    <a href="/entregables/ep06">Ep06</a>
-    <a href="/entregables/industryTalk">Industry Talk</a>
-  </div>
-
