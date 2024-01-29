@@ -7,6 +7,10 @@ main {
   font-size: 20px;
   line-height: 1.6;
 }
+img{
+  width: 960px;
+  height: 540px;
+}
 .astro-a {
   position: absolute;
   top: -32px;
