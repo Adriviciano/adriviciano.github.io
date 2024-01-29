@@ -1,10 +1,7 @@
 main {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding: 1rem;
   width: 800px;
   max-width: calc(100% - 2rem);
@@ -41,12 +38,7 @@ h1 {
 
 .nav-links {
   width: 100%;
-  height: auto;
   top: 5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
   background-color: #ff9776;
   display: none;
   margin: 0;
