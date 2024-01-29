@@ -79,7 +79,7 @@ h1 {
 
 /* estilos para el icono de lista (hamburguesa) */
 .menu-icon {
-  display: block;
+  display: none;
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -120,16 +120,8 @@ h1 {
 }
 
 @media screen and (max-width: 635px) {
-  .nav-links {
-    display: none; /* Ocultar los enlaces en pantallas pequeñas */
-  }
-
   .menu-icon {
     display: block; /* Mostrar el icono de lista en pantallas pequeñas */
-  }
-
-  .expanded {
-    display: none; /* Ocultar el menú desplegable por defecto */
   }
 
   .mobile-menu.active {
