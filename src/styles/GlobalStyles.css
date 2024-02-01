@@ -12,6 +12,10 @@ main {
   height: 540px;
 }
 
+pre{
+  text-align: justify;
+}
+
 .img-ep02{
   width: 600px;
   height: 400px;
