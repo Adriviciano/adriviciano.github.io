@@ -26,6 +26,16 @@ pre{
   height: auto;
 }
 
+.img4{
+  width: 300px;
+  height: auto;
+}
+
+.wireframes{
+  display: flex;
+  flex-direction: row;
+}
+
 .astro-a {
   position: absolute;
   top: -32px;
