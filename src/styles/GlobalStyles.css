@@ -7,6 +7,11 @@ main {
   font-size: 20px;
   line-height: 1.6;
 }
+
+.pagina-principal{
+  font-size: 300%;
+}
+
 .img-ep01{
   width: 960px;
   height: 540px;
