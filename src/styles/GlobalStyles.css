@@ -8,8 +8,13 @@ main {
   line-height: 1.6;
 }
 
-.pagina-principal{
+.texto-pagina-principal{
   font-size: 1500%;
+}
+
+.pagina-principal{
+  height: auto;
+  width: auto;
 }
 
 .img-ep01{
